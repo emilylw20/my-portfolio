@@ -1317,9 +1317,68 @@ figcaption {
 }
 
 ._w-form {
-  min-height: 400px;
+  width:600px;
+  min-width:400px;
+  min-height: 600px;
+  max-height:600px;
+  max-width:600px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: larger;
+  border:none;
 }
 
+textarea{
+  max-width: 600px;
+  line-height: 25px;
+}
+
+.form-style{
+  width:600px;
+  min-width:400px;
+  color: rgba(0, 0, 0, 0);
+  border:1px solid white;
+  padding:30px;
+  background-color: #000;
+  margin-bottom: 10px;
+  color:#adadad;
+  transition: .9s ease all;
+}
+
+.form-style:hover{
+  border:5px solid rgb(209, 209, 209);
+  transition: .9s ease all;
+}
+
+::placeholder{
+  color:#adadad;
+}
+
+.submit-button{
+  color:#adadad;
+  background-color: #000;
+  width:600px;
+  min-width:400px;
+  padding:30px;
+  padding-left:35px;
+  text-align: left;
+  transition: .9s ease all;
+}
+.submit-button:hover{
+  background-color: #b6b6b6;
+  color:#0a0a0a;
+  opacity: 0.9;
+  transform:translateY(10px);
+  transition: .9s ease all;
+}
+#form-header{
+  font-family: Cambria;
+  margin-bottom:-20px;
+}
 .proj_body {
   text-align: left;
 }
